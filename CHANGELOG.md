@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added `engines` requirements to `package.json` to enforce compatibility with Node.js `>=24.6.0`.
 - Documented project architecture decision regarding committed frontend build assets (Option A) in `docs/decisions/0001-committed-frontend-assets.md`.
 - Created comprehensive GRS-compliant `README.md` containing Title, Project Status, Overview, Features, Quick Start, Environment Configuration parameters, Project Structure directory mapping, server architecture Mermaid diagram, and Development instructions.
+- Documented split repository structure (Frontend and Backend) in `README.md` Overview with links to both repositories.
 
 ### Changed
 - Aligned project package version from stable `1.0.0` to experimental `0.1.0` in `package.json` and `package-lock.json` to correctly reflect repository lifecycle classification.

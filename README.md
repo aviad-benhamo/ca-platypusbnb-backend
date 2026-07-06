@@ -14,6 +14,10 @@
 
 PlatypusBNB Backend is a Node.js and Express application designed to serve as the server-side API and runtime environment for the PlatypusBNB booking platform. It connects to a MongoDB database to manage listings (stays), bookings (orders), and user sessions.
 
+The PlatypusBNB project is split into two separate repositories:
+- **Frontend Client**: [ca-platypusbnb-frontend](https://github.com/aviad-benhamo/ca-platypusbnb-frontend)
+- **Backend API**: [ca-platypusbnb-backend](https://github.com/aviad-benhamo/ca-platypusbnb-backend)
+
 Additionally, to simplify deployment and local testing, this backend repository serves prebuilt static frontend client assets directly from the `public/` directory (**Option A**).
 
 ---
