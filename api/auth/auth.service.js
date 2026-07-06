@@ -11,7 +11,11 @@ export const authService = {
     validateToken
 }
 
-const cryptr = new Cryptr(process.env.SECRET1 || 'Secret-Puk-1234')
+if (!process.env.SECRET1) {
+    logger.error('FATAL ERROR: SECRET1 environment variable is missing')
+    throw new Error('FATAL ERROR: SECRET1 environment variable is missing')
+}
+const cryptr = new Cryptr(process.env.SECRET1)
 
 async function login(username, password) {
     logger.debug(`auth.service - login with username: ${username}`)
