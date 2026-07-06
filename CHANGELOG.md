@@ -15,3 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 - Aligned project package version from stable `1.0.0` to experimental `0.1.0` in `package.json` and `package-lock.json` to correctly reflect repository lifecycle classification.
+
+### Fixed
+- Fixed missing `logger` import in `services/db.service.js`.
+
