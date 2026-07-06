@@ -1,7 +1,8 @@
 # PlatypusBNB Backend
 
-[![Node Version](https://img.shields.io/badge/node-%3E%3D24.6.0-blue.svg)](file:///.nvmrc)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](file:///LICENSE)
+[![Node Version](https://img.shields.io/badge/node-%3E%3D24.6.0-blue.svg)](./.nvmrc)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE)
+[![Website](https://img.shields.io/badge/website-live-brightgreen)](https://platypusbnb.onrender.com/)
 
 ## Project Status
 
@@ -173,17 +174,16 @@ graph TD
 
 ## Roadmap
 
-- Add API endpoint integration tests using Jest and Supertest.
-- Setup GitHub Actions CI workflows for lint check verification.
+See [ROADMAP.md](./ROADMAP.md) for the detailed project roadmap and future milestones.
 
 ---
 
 ## Changelog
 
-See [CHANGELOG.md](file:///CHANGELOG.md) for history details (to be created in subsequent work units).
+See [CHANGELOG.md](./CHANGELOG.md) for the full history of notable changes.
 
 ---
 
 ## License
 
-This project is licensed under the MIT License. See [LICENSE](file:///LICENSE) file for the full license text.
+This project is licensed under the MIT License. See [LICENSE](./LICENSE) for the full license text.
