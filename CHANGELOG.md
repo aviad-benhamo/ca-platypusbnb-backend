@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0] - 2026-07-06
+
 ### Added
 - Added `.nvmrc` configuration file baseline to specify Node.js version `24.6.0` requirement.
 - Added `engines` requirements to `package.json` to enforce compatibility with Node.js `>=24.6.0`.
@@ -18,4 +20,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 - Fixed missing `logger` import in `services/db.service.js`.
+
+[Unreleased]: https://github.com/aviad-benhamo/platypusbnb/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/aviad-benhamo/platypusbnb/releases/tag/v0.1.0
+
 
