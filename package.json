@@ -1,6 +1,6 @@
 {
     "name": "platypusbnb-project",
-    "version": "1.0.0",
+    "version": "0.1.0",
     "description": "platypusbnb-backend",
     "main": "server.js",
     "type": "module",
